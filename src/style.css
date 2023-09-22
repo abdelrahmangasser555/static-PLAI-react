@@ -1,0 +1,110 @@
+.App{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #282c34;
+    height: 100vh;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-react{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 30px 25px;
+    background-color: #21222A;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+}
+.left-header{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.header-text{
+    font-size: 20px;
+    margin-left: 10px;
+    text-wrap: nowrap;
+}
+.logo{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0;
+    width: 650px;
+    height: 100%;
+    /* background-image: url(./images/plai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:right;
+    background-position-y: top; */
+
+}
+ul > li{
+    align-items: start;
+    justify-content: start;
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+.header-button{
+    color: white;
+    border: none;
+    font-size: large;
+    background-color: transparent;
+    
+}
+.body > ul > li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::marker{
+    color: blue;
+    font-size: 1.4rem;
+}
+.logo1{
+    position : fixed;
+    right: -130px;
+    rotate: -90deg;
+    background-color: transparent;
+    width: 300px;
+    bottom: 290px
+
+
+}
